@@ -1,0 +1,565 @@
+UERANSIM v3.2.6
+[2026-11-23 08:58:34.538] [sctp] [info] Trying to establish SCTP connection... (192.168.250.10:38412)
+[2026-11-23 08:58:34.541] [sctp] [info] SCTP connection established (192.168.250.10:38412)
+[2026-11-23 08:58:34.542] [sctp] [debug] SCTP association setup ascId[3975]
+[2026-11-23 08:58:34.542] [ngap] [debug] Sending NG Setup Request
+[2026-11-23 08:58:34.552] [ngap] [debug] NG Setup Response received
+[2026-11-23 08:58:34.552] [ngap] [info] NG Setup procedure is successful
+[2026-11-23 08:58:37.557] [rrc] [debug] UE[1] new signal detected
+[2026-11-23 08:58:37.557] [rrc] [debug] UE[2] new signal detected
+[2026-11-23 08:58:37.558] [rrc] [debug] UE[3] new signal detected
+[2026-11-23 08:58:37.558] [rrc] [debug] UE[4] new signal detected
+[2026-11-23 08:58:37.559] [rrc] [info] RRC Setup for UE[1]
+[2026-11-23 08:58:37.559] [rrc] [debug] UE[5] new signal detected
+[2026-11-23 08:58:37.559] [rrc] [info] RRC Setup for UE[3]
+[2026-11-23 08:58:37.559] [rrc] [info] RRC Setup for UE[2]
+[2026-11-23 08:58:37.559] [rrc] [info] RRC Setup for UE[4]
+[2026-11-23 08:58:37.559] [ngap] [debug] Initial NAS message received from UE[1]
+[2026-11-23 08:58:37.559] [ngap] [debug] Initial NAS message received from UE[3]
+[2026-11-23 08:58:37.559] [ngap] [debug] Initial NAS message received from UE[2]
+[2026-11-23 08:58:37.560] [rrc] [debug] UE[6] new signal detected
+[2026-11-23 08:58:37.560] [ngap] [debug] Initial NAS message received from UE[4]
+[2026-11-23 08:58:37.560] [rrc] [info] RRC Setup for UE[5]
+[2026-11-23 08:58:37.560] [rrc] [debug] UE[7] new signal detected
+[2026-11-23 08:58:37.560] [ngap] [debug] Initial NAS message received from UE[5]
+[2026-11-23 08:58:37.560] [rrc] [info] RRC Setup for UE[6]
+[2026-11-23 08:58:37.561] [rrc] [debug] UE[8] new signal detected
+[2026-11-23 08:58:37.561] [ngap] [debug] Initial NAS message received from UE[6]
+[2026-11-23 08:58:37.561] [rrc] [info] RRC Setup for UE[7]
+[2026-11-23 08:58:37.561] [rrc] [info] RRC Setup for UE[8]
+[2026-11-23 08:58:37.561] [ngap] [debug] Initial NAS message received from UE[7]
+[2026-11-23 08:58:37.561] [ngap] [debug] Initial NAS message received from UE[8]
+[2026-11-23 08:58:37.642] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:37.644] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:37.646] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:37.647] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:37.650] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:37.650] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:37.651] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:37.663] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:37.671] [ngap] [info] PDU session resource(s) setup for UE[3] count[1]
+[2026-11-23 08:58:37.673] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2026-11-23 08:58:37.675] [ngap] [info] PDU session resource(s) setup for UE[7] count[1]
+[2026-11-23 08:58:37.677] [ngap] [info] PDU session resource(s) setup for UE[8] count[1]
+[2026-11-23 08:58:37.679] [ngap] [info] PDU session resource(s) setup for UE[2] count[1]
+[2026-11-23 08:58:37.682] [ngap] [info] PDU session resource(s) setup for UE[6] count[1]
+[2026-11-23 08:58:37.684] [ngap] [info] PDU session resource(s) setup for UE[5] count[1]
+[2026-11-23 08:58:37.686] [ngap] [info] PDU session resource(s) setup for UE[4] count[1]
+[2026-11-23 08:58:39.594] [rrc] [debug] UE[9] new signal detected
+[2026-11-23 08:58:39.595] [rrc] [debug] UE[10] new signal detected
+[2026-11-23 08:58:39.596] [rrc] [debug] UE[11] new signal detected
+[2026-11-23 08:58:39.597] [rrc] [info] RRC Setup for UE[10]
+[2026-11-23 08:58:39.597] [rrc] [info] RRC Setup for UE[9]
+[2026-11-23 08:58:39.597] [rrc] [debug] UE[12] new signal detected
+[2026-11-23 08:58:39.597] [rrc] [info] RRC Setup for UE[11]
+[2026-11-23 08:58:39.598] [ngap] [debug] Initial NAS message received from UE[9]
+[2026-11-23 08:58:39.598] [ngap] [debug] Initial NAS message received from UE[10]
+[2026-11-23 08:58:39.598] [ngap] [debug] Initial NAS message received from UE[11]
+[2026-11-23 08:58:39.598] [rrc] [debug] UE[13] new signal detected
+[2026-11-23 08:58:39.599] [rrc] [info] RRC Setup for UE[12]
+[2026-11-23 08:58:39.599] [rrc] [debug] UE[14] new signal detected
+[2026-11-23 08:58:39.601] [rrc] [info] RRC Setup for UE[13]
+[2026-11-23 08:58:39.601] [rrc] [debug] UE[15] new signal detected
+[2026-11-23 08:58:39.601] [ngap] [debug] Initial NAS message received from UE[12]
+[2026-11-23 08:58:39.602] [rrc] [debug] UE[16] new signal detected
+[2026-11-23 08:58:39.602] [rrc] [info] RRC Setup for UE[14]
+[2026-11-23 08:58:39.602] [ngap] [debug] Initial NAS message received from UE[13]
+[2026-11-23 08:58:39.603] [rrc] [info] RRC Setup for UE[15]
+[2026-11-23 08:58:39.603] [ngap] [debug] Initial NAS message received from UE[14]
+[2026-11-23 08:58:39.603] [rrc] [info] RRC Setup for UE[16]
+[2026-11-23 08:58:39.603] [ngap] [debug] Initial NAS message received from UE[15]
+[2026-11-23 08:58:39.603] [ngap] [debug] Initial NAS message received from UE[16]
+[2026-11-23 08:58:39.726] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:39.734] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:39.740] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:39.759] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:39.763] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:39.766] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:39.774] [ngap] [info] PDU session resource(s) setup for UE[9] count[1]
+[2026-11-23 08:58:39.778] [ngap] [info] PDU session resource(s) setup for UE[10] count[1]
+[2026-11-23 08:58:39.778] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:39.779] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:39.790] [ngap] [info] PDU session resource(s) setup for UE[11] count[1]
+[2026-11-23 08:58:39.799] [ngap] [info] PDU session resource(s) setup for UE[15] count[1]
+[2026-11-23 08:58:39.806] [ngap] [info] PDU session resource(s) setup for UE[12] count[1]
+[2026-11-23 08:58:39.811] [ngap] [info] PDU session resource(s) setup for UE[16] count[1]
+[2026-11-23 08:58:39.823] [ngap] [info] PDU session resource(s) setup for UE[14] count[1]
+[2026-11-23 08:58:39.827] [ngap] [info] PDU session resource(s) setup for UE[13] count[1]
+[2026-11-23 08:58:41.630] [rrc] [debug] UE[17] new signal detected
+[2026-11-23 08:58:41.632] [rrc] [debug] UE[18] new signal detected
+[2026-11-23 08:58:41.632] [rrc] [debug] UE[19] new signal detected
+[2026-11-23 08:58:41.632] [rrc] [debug] UE[20] new signal detected
+[2026-11-23 08:58:41.632] [rrc] [info] RRC Setup for UE[17]
+[2026-11-23 08:58:41.634] [rrc] [debug] UE[21] new signal detected
+[2026-11-23 08:58:41.636] [rrc] [debug] UE[22] new signal detected
+[2026-11-23 08:58:41.636] [ngap] [debug] Initial NAS message received from UE[17]
+[2026-11-23 08:58:41.637] [rrc] [info] RRC Setup for UE[20]
+[2026-11-23 08:58:41.637] [rrc] [info] RRC Setup for UE[18]
+[2026-11-23 08:58:41.637] [rrc] [info] RRC Setup for UE[21]
+[2026-11-23 08:58:41.637] [rrc] [debug] UE[23] new signal detected
+[2026-11-23 08:58:41.638] [rrc] [debug] UE[24] new signal detected
+[2026-11-23 08:58:41.639] [rrc] [info] RRC Setup for UE[19]
+[2026-11-23 08:58:41.639] [rrc] [info] RRC Setup for UE[24]
+[2026-11-23 08:58:41.639] [ngap] [debug] Initial NAS message received from UE[21]
+[2026-11-23 08:58:41.640] [ngap] [debug] Initial NAS message received from UE[20]
+[2026-11-23 08:58:41.641] [ngap] [debug] Initial NAS message received from UE[19]
+[2026-11-23 08:58:41.641] [ngap] [debug] Initial NAS message received from UE[24]
+[2026-11-23 08:58:41.641] [ngap] [debug] Initial NAS message received from UE[18]
+[2026-11-23 08:58:41.641] [rrc] [info] RRC Setup for UE[23]
+[2026-11-23 08:58:41.641] [ngap] [debug] Initial NAS message received from UE[23]
+[2026-11-23 08:58:41.778] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:41.782] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:41.785] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:41.785] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:41.786] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:41.789] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:41.814] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:41.824] [ngap] [info] PDU session resource(s) setup for UE[21] count[1]
+[2026-11-23 08:58:41.828] [ngap] [info] PDU session resource(s) setup for UE[24] count[1]
+[2026-11-23 08:58:41.832] [ngap] [info] PDU session resource(s) setup for UE[20] count[1]
+[2026-11-23 08:58:41.839] [ngap] [info] PDU session resource(s) setup for UE[17] count[1]
+[2026-11-23 08:58:41.845] [ngap] [info] PDU session resource(s) setup for UE[19] count[1]
+[2026-11-23 08:58:41.849] [ngap] [info] PDU session resource(s) setup for UE[23] count[1]
+[2026-11-23 08:58:41.854] [ngap] [info] PDU session resource(s) setup for UE[18] count[1]
+[2026-11-23 08:58:44.136] [rrc] [info] RRC Setup for UE[22]
+[2026-11-23 08:58:44.137] [ngap] [debug] Initial NAS message received from UE[22]
+[2026-11-23 08:58:44.182] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:44.404] [ngap] [info] PDU session resource(s) setup for UE[22] count[1]
+[2026-11-23 08:58:45.680] [rrc] [debug] UE[25] new signal detected
+[2026-11-23 08:58:45.681] [rrc] [debug] UE[26] new signal detected
+[2026-11-23 08:58:45.682] [rrc] [debug] UE[27] new signal detected
+[2026-11-23 08:58:45.682] [rrc] [info] RRC Setup for UE[25]
+[2026-11-23 08:58:45.682] [rrc] [info] RRC Setup for UE[26]
+[2026-11-23 08:58:45.682] [rrc] [debug] UE[28] new signal detected
+[2026-11-23 08:58:45.684] [rrc] [debug] UE[29] new signal detected
+[2026-11-23 08:58:45.684] [rrc] [debug] UE[30] new signal detected
+[2026-11-23 08:58:45.684] [rrc] [info] RRC Setup for UE[28]
+[2026-11-23 08:58:45.684] [rrc] [info] RRC Setup for UE[29]
+[2026-11-23 08:58:45.684] [rrc] [debug] UE[31] new signal detected
+[2026-11-23 08:58:45.684] [ngap] [debug] Initial NAS message received from UE[25]
+[2026-11-23 08:58:45.684] [ngap] [debug] Initial NAS message received from UE[26]
+[2026-11-23 08:58:45.686] [rrc] [debug] UE[32] new signal detected
+[2026-11-23 08:58:45.686] [rrc] [info] RRC Setup for UE[31]
+[2026-11-23 08:58:45.686] [ngap] [debug] Initial NAS message received from UE[28]
+[2026-11-23 08:58:45.686] [ngap] [debug] Initial NAS message received from UE[29]
+[2026-11-23 08:58:45.687] [ngap] [debug] Initial NAS message received from UE[31]
+[2026-11-23 08:58:45.748] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:45.750] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:45.754] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:45.755] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:45.763] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:45.767] [ngap] [info] PDU session resource(s) setup for UE[26] count[1]
+[2026-11-23 08:58:45.772] [ngap] [info] PDU session resource(s) setup for UE[25] count[1]
+[2026-11-23 08:58:45.785] [ngap] [info] PDU session resource(s) setup for UE[31] count[1]
+[2026-11-23 08:58:45.789] [ngap] [info] PDU session resource(s) setup for UE[28] count[1]
+[2026-11-23 08:58:45.792] [ngap] [info] PDU session resource(s) setup for UE[29] count[1]
+[2026-11-23 08:58:48.182] [rrc] [info] RRC Setup for UE[27]
+[2026-11-23 08:58:48.183] [ngap] [debug] Initial NAS message received from UE[27]
+[2026-11-23 08:58:48.184] [rrc] [info] RRC Setup for UE[30]
+[2026-11-23 08:58:48.185] [rrc] [info] RRC Setup for UE[32]
+[2026-11-23 08:58:48.186] [ngap] [debug] Initial NAS message received from UE[30]
+[2026-11-23 08:58:48.186] [ngap] [debug] Initial NAS message received from UE[32]
+[2026-11-23 08:58:48.225] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:48.226] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:48.237] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:48.256] [ngap] [info] PDU session resource(s) setup for UE[27] count[1]
+[2026-11-23 08:58:48.258] [ngap] [info] PDU session resource(s) setup for UE[32] count[1]
+[2026-11-23 08:58:48.260] [ngap] [info] PDU session resource(s) setup for UE[30] count[1]
+[2026-11-23 08:58:49.734] [rrc] [debug] UE[33] new signal detected
+[2026-11-23 08:58:49.735] [rrc] [debug] UE[34] new signal detected
+[2026-11-23 08:58:49.738] [rrc] [debug] UE[35] new signal detected
+[2026-11-23 08:58:49.738] [rrc] [debug] UE[36] new signal detected
+[2026-11-23 08:58:49.738] [rrc] [info] RRC Setup for UE[33]
+[2026-11-23 08:58:49.741] [rrc] [info] RRC Setup for UE[35]
+[2026-11-23 08:58:49.742] [rrc] [debug] UE[37] new signal detected
+[2026-11-23 08:58:49.742] [rrc] [debug] UE[38] new signal detected
+[2026-11-23 08:58:49.742] [rrc] [debug] UE[39] new signal detected
+[2026-11-23 08:58:49.742] [rrc] [debug] UE[40] new signal detected
+[2026-11-23 08:58:49.744] [ngap] [debug] Initial NAS message received from UE[35]
+[2026-11-23 08:58:49.744] [ngap] [debug] Initial NAS message received from UE[33]
+[2026-11-23 08:58:49.749] [rrc] [info] RRC Setup for UE[40]
+[2026-11-23 08:58:49.750] [ngap] [debug] Initial NAS message received from UE[40]
+[2026-11-23 08:58:49.822] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:49.822] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:49.845] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:49.874] [ngap] [info] PDU session resource(s) setup for UE[35] count[1]
+[2026-11-23 08:58:49.877] [ngap] [info] PDU session resource(s) setup for UE[40] count[1]
+[2026-11-23 08:58:49.880] [ngap] [info] PDU session resource(s) setup for UE[33] count[1]
+[2026-11-23 08:58:52.236] [rrc] [info] RRC Setup for UE[34]
+[2026-11-23 08:58:52.237] [ngap] [debug] Initial NAS message received from UE[34]
+[2026-11-23 08:58:52.237] [rrc] [info] RRC Setup for UE[36]
+[2026-11-23 08:58:52.238] [ngap] [debug] Initial NAS message received from UE[36]
+[2026-11-23 08:58:52.239] [rrc] [info] RRC Setup for UE[37]
+[2026-11-23 08:58:52.240] [ngap] [debug] Initial NAS message received from UE[37]
+[2026-11-23 08:58:52.240] [rrc] [info] RRC Setup for UE[38]
+[2026-11-23 08:58:52.241] [ngap] [debug] Initial NAS message received from UE[38]
+[2026-11-23 08:58:52.241] [rrc] [info] RRC Setup for UE[39]
+[2026-11-23 08:58:52.242] [ngap] [debug] Initial NAS message received from UE[39]
+[2026-11-23 08:58:52.332] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:52.341] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:52.342] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:52.343] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:52.365] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:52.371] [ngap] [info] PDU session resource(s) setup for UE[34] count[1]
+[2026-11-23 08:58:52.396] [ngap] [info] PDU session resource(s) setup for UE[37] count[1]
+[2026-11-23 08:58:52.400] [ngap] [info] PDU session resource(s) setup for UE[39] count[1]
+[2026-11-23 08:58:52.405] [ngap] [info] PDU session resource(s) setup for UE[36] count[1]
+[2026-11-23 08:58:52.410] [ngap] [info] PDU session resource(s) setup for UE[38] count[1]
+[2026-11-23 08:58:53.798] [rrc] [debug] UE[41] new signal detected
+[2026-11-23 08:58:53.800] [rrc] [debug] UE[42] new signal detected
+[2026-11-23 08:58:53.802] [rrc] [debug] UE[43] new signal detected
+[2026-11-23 08:58:53.802] [rrc] [debug] UE[44] new signal detected
+[2026-11-23 08:58:53.803] [rrc] [info] RRC Setup for UE[41]
+[2026-11-23 08:58:53.806] [rrc] [info] RRC Setup for UE[42]
+[2026-11-23 08:58:53.806] [rrc] [debug] UE[45] new signal detected
+[2026-11-23 08:58:53.807] [rrc] [debug] UE[46] new signal detected
+[2026-11-23 08:58:53.807] [rrc] [info] RRC Setup for UE[44]
+[2026-11-23 08:58:53.807] [rrc] [info] RRC Setup for UE[43]
+[2026-11-23 08:58:53.807] [rrc] [debug] UE[47] new signal detected
+[2026-11-23 08:58:53.815] [rrc] [debug] UE[48] new signal detected
+[2026-11-23 08:58:53.816] [rrc] [info] RRC Setup for UE[47]
+[2026-11-23 08:58:53.816] [rrc] [info] RRC Setup for UE[46]
+[2026-11-23 08:58:53.816] [rrc] [info] RRC Setup for UE[48]
+[2026-11-23 08:58:53.816] [ngap] [debug] Initial NAS message received from UE[41]
+[2026-11-23 08:58:53.816] [ngap] [debug] Initial NAS message received from UE[42]
+[2026-11-23 08:58:53.816] [ngap] [debug] Initial NAS message received from UE[43]
+[2026-11-23 08:58:53.819] [ngap] [debug] Initial NAS message received from UE[44]
+[2026-11-23 08:58:53.820] [ngap] [debug] Initial NAS message received from UE[46]
+[2026-11-23 08:58:53.820] [ngap] [debug] Initial NAS message received from UE[47]
+[2026-11-23 08:58:53.820] [ngap] [debug] Initial NAS message received from UE[48]
+[2026-11-23 08:58:53.947] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:53.956] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:53.961] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:53.963] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:53.965] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:53.966] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:53.990] [ngap] [info] PDU session resource(s) setup for UE[42] count[1]
+[2026-11-23 08:58:53.992] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:54.002] [ngap] [info] PDU session resource(s) setup for UE[47] count[1]
+[2026-11-23 08:58:54.007] [ngap] [info] PDU session resource(s) setup for UE[41] count[1]
+[2026-11-23 08:58:54.011] [ngap] [info] PDU session resource(s) setup for UE[43] count[1]
+[2026-11-23 08:58:54.031] [ngap] [info] PDU session resource(s) setup for UE[44] count[1]
+[2026-11-23 08:58:54.036] [ngap] [info] PDU session resource(s) setup for UE[46] count[1]
+[2026-11-23 08:58:54.040] [ngap] [info] PDU session resource(s) setup for UE[48] count[1]
+[2026-11-23 08:58:56.303] [rrc] [info] RRC Setup for UE[45]
+[2026-11-23 08:58:56.304] [ngap] [debug] Initial NAS message received from UE[45]
+[2026-11-23 08:58:56.361] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:56.588] [ngap] [info] PDU session resource(s) setup for UE[45] count[1]
+[2026-11-23 08:58:57.873] [rrc] [debug] UE[49] new signal detected
+[2026-11-23 08:58:57.877] [rrc] [debug] UE[50] new signal detected
+[2026-11-23 08:58:57.877] [rrc] [debug] UE[51] new signal detected
+[2026-11-23 08:58:57.877] [rrc] [debug] UE[52] new signal detected
+[2026-11-23 08:58:57.877] [rrc] [info] RRC Setup for UE[49]
+[2026-11-23 08:58:57.886] [rrc] [debug] UE[53] new signal detected
+[2026-11-23 08:58:57.886] [rrc] [debug] UE[54] new signal detected
+[2026-11-23 08:58:57.887] [rrc] [info] RRC Setup for UE[50]
+[2026-11-23 08:58:57.887] [rrc] [debug] UE[55] new signal detected
+[2026-11-23 08:58:57.887] [rrc] [info] RRC Setup for UE[52]
+[2026-11-23 08:58:57.887] [rrc] [debug] UE[56] new signal detected
+[2026-11-23 08:58:57.887] [rrc] [info] RRC Setup for UE[55]
+[2026-11-23 08:58:57.887] [rrc] [info] RRC Setup for UE[54]
+[2026-11-23 08:58:57.892] [ngap] [debug] Initial NAS message received from UE[49]
+[2026-11-23 08:58:57.896] [ngap] [debug] Initial NAS message received from UE[50]
+[2026-11-23 08:58:57.896] [ngap] [debug] Initial NAS message received from UE[52]
+[2026-11-23 08:58:57.897] [ngap] [debug] Initial NAS message received from UE[54]
+[2026-11-23 08:58:57.897] [ngap] [debug] Initial NAS message received from UE[55]
+[2026-11-23 08:58:58.004] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:58.008] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:58.009] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:58.013] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:58.028] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:58:58.039] [ngap] [info] PDU session resource(s) setup for UE[50] count[1]
+[2026-11-23 08:58:58.043] [ngap] [info] PDU session resource(s) setup for UE[49] count[1]
+[2026-11-23 08:58:58.047] [ngap] [info] PDU session resource(s) setup for UE[54] count[1]
+[2026-11-23 08:58:58.050] [ngap] [info] PDU session resource(s) setup for UE[55] count[1]
+[2026-11-23 08:58:58.063] [ngap] [info] PDU session resource(s) setup for UE[52] count[1]
+[2026-11-23 08:59:00.375] [rrc] [info] RRC Setup for UE[51]
+[2026-11-23 08:59:00.377] [ngap] [debug] Initial NAS message received from UE[51]
+[2026-11-23 08:59:00.377] [rrc] [info] RRC Setup for UE[53]
+[2026-11-23 08:59:00.378] [ngap] [debug] Initial NAS message received from UE[53]
+[2026-11-23 08:59:00.380] [rrc] [info] RRC Setup for UE[56]
+[2026-11-23 08:59:00.381] [ngap] [debug] Initial NAS message received from UE[56]
+[2026-11-23 08:59:00.458] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:00.458] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:00.487] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:00.519] [ngap] [info] PDU session resource(s) setup for UE[56] count[1]
+[2026-11-23 08:59:00.523] [ngap] [info] PDU session resource(s) setup for UE[53] count[1]
+[2026-11-23 08:59:00.527] [ngap] [info] PDU session resource(s) setup for UE[51] count[1]
+[2026-11-23 08:59:01.933] [rrc] [debug] UE[57] new signal detected
+[2026-11-23 08:59:01.934] [rrc] [debug] UE[58] new signal detected
+[2026-11-23 08:59:01.934] [rrc] [debug] UE[59] new signal detected
+[2026-11-23 08:59:01.934] [rrc] [debug] UE[60] new signal detected
+[2026-11-23 08:59:01.940] [rrc] [info] RRC Setup for UE[57]
+[2026-11-23 08:59:01.940] [rrc] [debug] UE[61] new signal detected
+[2026-11-23 08:59:01.940] [rrc] [info] RRC Setup for UE[60]
+[2026-11-23 08:59:01.940] [rrc] [debug] UE[62] new signal detected
+[2026-11-23 08:59:01.940] [rrc] [info] RRC Setup for UE[61]
+[2026-11-23 08:59:01.940] [rrc] [debug] UE[63] new signal detected
+[2026-11-23 08:59:01.940] [rrc] [debug] UE[64] new signal detected
+[2026-11-23 08:59:01.949] [ngap] [debug] Initial NAS message received from UE[57]
+[2026-11-23 08:59:01.949] [rrc] [info] RRC Setup for UE[63]
+[2026-11-23 08:59:01.949] [rrc] [info] RRC Setup for UE[64]
+[2026-11-23 08:59:01.949] [ngap] [debug] Initial NAS message received from UE[60]
+[2026-11-23 08:59:01.949] [ngap] [debug] Initial NAS message received from UE[61]
+[2026-11-23 08:59:01.949] [ngap] [debug] Initial NAS message received from UE[64]
+[2026-11-23 08:59:01.950] [ngap] [debug] Initial NAS message received from UE[63]
+[2026-11-23 08:59:02.037] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:02.043] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:02.047] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:02.047] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:02.057] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:02.068] [ngap] [info] PDU session resource(s) setup for UE[60] count[1]
+[2026-11-23 08:59:02.071] [ngap] [info] PDU session resource(s) setup for UE[57] count[1]
+[2026-11-23 08:59:02.084] [ngap] [info] PDU session resource(s) setup for UE[63] count[1]
+[2026-11-23 08:59:02.087] [ngap] [info] PDU session resource(s) setup for UE[64] count[1]
+[2026-11-23 08:59:02.090] [ngap] [info] PDU session resource(s) setup for UE[61] count[1]
+[2026-11-23 08:59:04.435] [rrc] [info] RRC Setup for UE[59]
+[2026-11-23 08:59:04.435] [rrc] [info] RRC Setup for UE[58]
+[2026-11-23 08:59:04.436] [ngap] [debug] Initial NAS message received from UE[59]
+[2026-11-23 08:59:04.436] [ngap] [debug] Initial NAS message received from UE[58]
+[2026-11-23 08:59:04.438] [rrc] [info] RRC Setup for UE[62]
+[2026-11-23 08:59:04.438] [ngap] [debug] Initial NAS message received from UE[62]
+[2026-11-23 08:59:04.487] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:04.487] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:04.508] [ngap] [debug] Initial Context Setup Request received
+[2026-11-23 08:59:04.536] [ngap] [info] PDU session resource(s) setup for UE[59] count[1]
+[2026-11-23 08:59:04.538] [ngap] [info] PDU session resource(s) setup for UE[62] count[1]
+[2026-11-23 08:59:04.541] [ngap] [info] PDU session resource(s) setup for UE[58] count[1]
+[2026-11-23 09:04:09.158] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.205] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.244] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.282] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.322] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.361] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.395] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.427] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.467] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.502] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.537] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.573] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.609] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.643] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.678] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.720] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:04:09.760] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.430] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.438] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.445] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.453] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.460] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.469] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.478] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.487] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.495] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.506] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.521] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.532] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.541] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.550] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.558] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.569] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:43.579] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:47.713] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:47.748] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:47.783] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:47.821] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:47.858] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:47.893] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:47.928] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:47.964] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.000] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.036] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.071] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.106] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.143] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.179] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.215] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.251] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.286] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.322] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:05:48.359] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.064] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.073] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.080] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.094] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.109] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.121] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.130] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.139] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.148] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.158] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.168] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.176] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.183] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.190] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.197] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.205] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.213] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.221] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:22.228] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.323] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.366] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.404] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.439] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.474] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.510] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.544] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.581] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.625] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.662] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.698] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.733] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.768] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.803] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.841] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.883] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.919] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:07:26.954] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.611] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.623] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.630] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.637] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.643] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.658] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.672] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.680] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.689] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.697] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.705] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.713] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.721] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.728] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.737] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.744] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.752] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:09:00.760] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:18.835] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:18.872] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:18.906] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:18.941] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:18.976] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.013] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.048] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.083] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.119] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.152] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.188] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.222] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.257] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.291] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.324] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.360] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.394] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.429] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.462] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.500] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.538] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:12:19.573] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:52.982] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:52.992] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.003] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.016] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.030] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.041] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.056] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.067] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.078] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.090] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.099] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.112] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.124] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.137] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.149] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.162] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.175] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.187] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.197] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.209] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.221] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:13:53.232] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.325] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.360] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.396] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.433] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.469] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.504] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.542] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.577] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.611] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.644] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.680] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.717] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.752] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.788] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.821] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.855] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.895] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.933] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:35.968] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:15:36.004] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:09.894] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:09.909] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:09.927] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:09.943] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:09.960] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:09.977] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:09.996] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.012] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.026] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.040] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.054] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.069] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.083] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.095] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.108] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.119] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.132] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.143] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.155] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:10.168] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.320] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.355] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.388] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.422] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.459] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.499] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.536] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.573] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.607] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.645] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.680] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.714] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.747] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.782] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.819] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.853] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.887] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.922] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.957] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:14.994] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:15.029] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:15.063] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:17:15.096] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.279] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.286] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.293] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.300] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.307] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.314] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.322] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.329] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.335] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.342] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.348] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.354] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.362] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.369] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.375] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.382] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.389] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.395] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.402] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.412] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.419] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.426] [ngap] [error] Unhandled NGAP initiating-message received (9)
+[2026-11-23 09:18:48.433] [ngap] [error] Unhandled NGAP initiating-message received (9)

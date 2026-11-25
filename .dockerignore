@@ -1,0 +1,4 @@
+results/
+conformance/specs/
+**/__pycache__/
+vendor/results/

@@ -1,0 +1,17 @@
+Open5GS daemon v2.8.0
+
+[32m11/23 08:58:18.387[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:144)
+[32m11/23 08:58:18.387[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:147)
+[32m11/23 08:58:18.390[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:499)
+[32m11/23 08:58:18.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nnssf-nsselection] (../lib/sbi/context.c:2012)
+[32m11/23 08:58:18.391[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:454)
+[32m11/23 08:58:18.391[0m: [[33mapp[0m] [1;32mINFO[0m: NSSF initialize...done (../src/nssf/app.c:31)
+[32m11/23 08:58:18.395[0m: [[33msbi[0m] [1;32mINFO[0m: [06c58c10-e71c-41f1-86e4-f7620b5a70f7] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:368)
+[32m11/23 08:58:18.397[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:1113)
+[32m11/23 08:58:18.397[0m: [[33msbi[0m] [1;32mINFO[0m: [06c66c2a-e71c-41f1-84ec-710b8360bcc2] Subscription created until 2026-11-24T08:58:18.396460+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m11/23 20:58:18.407[0m: [[33mnssf[0m] [1;32mINFO[0m: [06c66c2a-e71c-41f1-84ec-710b8360bcc2] Need to update Subscription (../src/nssf/nssf-sm.c:450)
+[32m11/23 20:58:18.409[0m: [[33msbi[0m] [1;32mINFO[0m: [06c66c2a-e71c-41f1-84ec-710b8360bcc2] Subscription updated(204 No Content) until 2026-11-24T20:58:18.409187+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m11/24 08:58:18.419[0m: [[33mnssf[0m] [1;32mINFO[0m: [06c66c2a-e71c-41f1-84ec-710b8360bcc2] Need to update Subscription (../src/nssf/nssf-sm.c:450)
+[32m11/24 08:58:18.420[0m: [[33msbi[0m] [1;32mINFO[0m: [06c66c2a-e71c-41f1-84ec-710b8360bcc2] Subscription updated(204 No Content) until 2026-11-25T08:58:18.420760+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m11/24 20:58:18.429[0m: [[33mnssf[0m] [1;32mINFO[0m: [06c66c2a-e71c-41f1-84ec-710b8360bcc2] Need to update Subscription (../src/nssf/nssf-sm.c:450)
+[32m11/24 20:58:18.431[0m: [[33msbi[0m] [1;32mINFO[0m: [06c66c2a-e71c-41f1-84ec-710b8360bcc2] Subscription updated(204 No Content) until 2026-11-25T20:58:18.431091+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)

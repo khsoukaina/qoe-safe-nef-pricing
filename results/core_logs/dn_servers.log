@@ -1,0 +1,1 @@
+[dn] echo udp/5000  stream udp/5001  http tcp/8000 on 10.60.0.1

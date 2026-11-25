@@ -1,0 +1,102 @@
+# =====================================================================================
+# nef_core_lab — single configuration file (read by the NEF, the AF agents, the traffic
+# generators, the price pre-computation and the analysis scripts).
+#
+# Units: rates in Mbit/s, prices in model money units per model-Mbit/s per one-hour slot
+# (identical to the simulation lab), durations in seconds.
+# =====================================================================================
+
+# ---------------------------------------------------------------- testbed scaling
+# The testbed is a 1/k sample of the simulated cell, with every best-effort / guaranteed
+# rate multiplied by rate_scale. The capacity is scaled the same way, so every load ratio
+# (L/R), hence every congestion level and every price, is identical to the simulation.
+#     sessions_tb  = X_model / sample_k
+#     rate_tb      = rate_model * rate_scale            (voice is NOT scaled: real G.711)
+#     R_tb         = R_model * rate_scale / sample_k    (here 4500 * 0.25 / 20 = 56.25)
+scaling:
+  sample_k: 20
+  rate_scale: 0.25
+  capacity_override_mbps: null     # set a number to force R_tb
+
+# ---------------------------------------------------------------- 5G core (Open5GS)
+core:
+  plmn: {mcc: "999", mnc: "70"}
+  dnn: internet
+  snssai: {sst: 1}
+  nrf_uri: http://127.0.0.10:7777
+  bsf_uri: http://127.0.0.15:7777     # fallback if NRF discovery fails
+  pcf_uri: http://127.0.0.13:7777     # fallback if the BSF returns no usable endpoint
+  ue_subnet: 10.45.0.0/16
+  dn_ip: 10.60.0.1                    # application server (data network) behind the UPF
+  core_ip: 192.168.250.10              # core container on the docker bridge
+  ue_count: 64                        # subscribers provisioned / UEs started
+
+# ---------------------------------------------------------------- NEF
+nef:
+  listen_host: 0.0.0.0
+  listen_port: 8080
+  callback_base: http://127.0.0.1:8080   # base of notifUri given to the PCF (same container)
+  southbound: core                    # core = real BSF/PCF ; none = NEF alone (latency baseline)
+  register_in_nrf: true
+  nf_instance_id: 6c0f0a3e-5b1d-4a71-9a51-6e66f0e0c0de
+  supp_feat: "0"                      # AppSessionContextReqData.suppFeat
+  af_app_id: nef-qod-pricing
+  cache_bsf: false                    # true = cache PCF binding per UE IP (faster, less realistic)
+  sbi_timeout_s: 5.0
+  log_dir: results/nef
+
+# ---------------------------------------------------------------- user-plane enforcement
+# Neither UERANSIM nor the Open5GS UPF schedules GBR traffic. The PCF -> SMF -> UPF chain is
+# REAL (the dedicated QoS flow, its PCC rule and its PFCP QER are created by the core); the
+# radio scheduler is EMULATED by an HTB bottleneck on the UPF N6 tunnel device (downlink):
+# one guaranteed class per granted session (rate = ceil = b_tb), one best-effort class that
+# gets the rest of R_tb.
+enforcer:
+  mode: tc                            # tc | dry (log the commands only) | off
+  dev: ogstun
+  base_delay_ms: 10                   # one-way RAN + transport delay (netem), as network.base_delay_ms
+  be_limit_pkts: 300                  # best-effort queue (creates realistic bufferbloat)
+  gbr_limit_pkts: 100
+
+# ---------------------------------------------------------------- pricing / admission
+pricing:
+  prices_file: results/prices/prices.json
+  default_policy: safe_strict
+  default_rationing: random           # random | priority | qoe_gain
+  batch_window_s: 1.5                 # admission window for priority / qoe_gain rationing
+  eps: 0.05                           # overload target of the (conformal) quantile
+  history_days: 60                    # synthetic past days used by the conformal quantile
+  eta_mean: 0.01                      # tolerance of the "safe_mean_eta" policy (frontier point)
+  n_design: 40                        # design draws (forecast) for the QoE-safe tables
+  n_fine: 60
+  window_slots: [3, 9, 12, 16, 17, 18, 19, 20, 21, 22, 23]
+  policies: [no_nef, safe_mean, safe_strict, safe_gated, safe_gated_mean, safe_mean_eta, quantile, congestion_noext, flat_rev, revenue_max]
+
+# ---------------------------------------------------------------- QoS profiles (qosReference)
+# medType must be one Open5GS PCF maps to a 5QI with a PCC rule in the subscriber profile:
+# AUDIO -> 5QI 1, VIDEO -> 5QI 2 (see provision/provision.py). The 5QI only labels the flow;
+# the guaranteed rate that matters is marBw/mirBw = b_tb.
+profiles:
+  QOD_VIDEO:  {class: video,  medType: VIDEO, ul_mbps: 0.2}
+  QOD_GAMING: {class: gaming, medType: VIDEO, ul_mbps: 0.5}
+  QOD_VOICE:  {class: voice,  medType: AUDIO, ul_mbps: 0.12}
+  QOD_WEB:    {class: web,    medType: VIDEO, ul_mbps: 0.2}
+
+# ---------------------------------------------------------------- traffic generators
+traffic:
+  udp_echo_port: 5000
+  udp_stream_port: 5001
+  tcp_port: 8000
+  warmup_s: 6                         # excluded from QoE statistics (ABR start-up)
+  voice: {pps: 50, payload: 160, jitter_buffer_ms: 60, codec_delay_ms: 25}
+  gaming: {probe_pps: 30, pkt_bytes: 1200}
+  video: {segment_s: 2.0, ladder_kbps_real: [400, 1000, 2500, 5000], safety: 0.8}
+  web: {page_kb_real: 2500, objects: 24, parallel: 6}
+
+# ---------------------------------------------------------------- scenario
+scenario:
+  slot_seconds: 90                    # duration of one emulated hour
+  cooldown_s: 4
+  forecast_cv: 0.12
+  seeds: [1, 2, 3]
+  request_spacing_ms: 20              # AF requests are sent sequentially, shuffled

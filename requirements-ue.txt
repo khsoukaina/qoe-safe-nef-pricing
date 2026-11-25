@@ -1,0 +1,5 @@
+# UE container: AF agents (vendored follower model), traffic clients, QoE models
+numpy>=1.26
+scipy>=1.11
+pyyaml>=6.0
+httpx[http2]>=0.27

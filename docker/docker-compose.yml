@@ -1,0 +1,56 @@
+# nef_core_lab: Open5GS 5G core + UERANSIM gNB/UEs + our NEF, on one docker bridge.
+#   mongo  192.168.250.5   subscriber database (Open5GS UDR / PCF)
+#   core   192.168.250.10  Open5GS NFs (NRF SCP AUSF UDM UDR PCF BSF NSSF SMF AMF UPF) + NEF + DN servers
+#   ue     192.168.250.20  UERANSIM gNB + N UEs + AF agents + traffic clients
+# The lab directory is mounted at /lab in both containers: results are written on the host.
+name: nef-core-lab
+
+networks:
+  corenet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.250.0/24
+
+volumes:
+  mongo-data: {}
+
+services:
+  mongo:
+    image: mongo:6.0
+    networks:
+      corenet: {ipv4_address: 192.168.250.5}
+    volumes: [mongo-data:/data/db]
+
+  core:
+    build: {context: .., dockerfile: docker/core/Dockerfile}
+    image: nef-core-lab/core:latest
+    depends_on: [mongo]
+    privileged: true                     # TUN device for the UPF + tc on ogstun
+    devices: ["/dev/net/tun:/dev/net/tun"]
+    sysctls: {net.ipv4.ip_forward: "1"}
+    networks:
+      corenet: {ipv4_address: 192.168.250.10}
+    volumes: ["..:/lab"]
+    environment:
+      CORE_IP: 192.168.250.10
+      MONGO_URI: mongodb://192.168.250.5/open5gs
+      UE_COUNT: "64"
+      NEF_AUTOSTART: "1"                 # 0 = start the NEF yourself (see GUIDE.md)
+      NEF_ARGS: ""                       # e.g. "--southbound none" or "--enforcer dry"
+    command: ["/bin/bash", "/lab/docker/core/entrypoint.sh"]
+
+  ue:
+    build: {context: .., dockerfile: docker/ueransim/Dockerfile}
+    image: nef-core-lab/ue:latest
+    depends_on: [core]
+    privileged: true                     # uesimtunX interfaces + policy routing
+    devices: ["/dev/net/tun:/dev/net/tun"]
+    networks:
+      corenet: {ipv4_address: 192.168.250.20}
+    volumes: ["..:/lab"]
+    environment:
+      CORE_IP: 192.168.250.10
+      GNB_IP: 192.168.250.20
+      UE_COUNT: "64"
+    command: ["/bin/bash", "/lab/docker/ueransim/entrypoint.sh"]

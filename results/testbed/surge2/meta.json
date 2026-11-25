@@ -1,0 +1,167 @@
+{
+  "policies": [
+    "no_nef",
+    "no_nef#2",
+    "safe_mean",
+    "safe_gated_mean"
+  ],
+  "rationing": "random",
+  "seeds": [
+    4,
+    5,
+    6
+  ],
+  "slots": [
+    20
+  ],
+  "slot_seconds": 90.0,
+  "R_tb": 56.25,
+  "k": 20.0,
+  "s": 0.25,
+  "n_ues": 64,
+  "config": {
+    "scaling": {
+      "sample_k": 20,
+      "rate_scale": 0.25,
+      "capacity_override_mbps": null
+    },
+    "core": {
+      "plmn": {
+        "mcc": "999",
+        "mnc": "70"
+      },
+      "dnn": "internet",
+      "snssai": {
+        "sst": 1
+      },
+      "nrf_uri": "http://127.0.0.10:7777",
+      "bsf_uri": "http://127.0.0.15:7777",
+      "pcf_uri": "http://127.0.0.13:7777",
+      "ue_subnet": "10.45.0.0/16",
+      "dn_ip": "10.60.0.1",
+      "core_ip": "192.168.250.10",
+      "ue_count": 64
+    },
+    "nef": {
+      "listen_host": "0.0.0.0",
+      "listen_port": 8080,
+      "callback_base": "http://127.0.0.1:8080",
+      "southbound": "core",
+      "register_in_nrf": true,
+      "nf_instance_id": "6c0f0a3e-5b1d-4a71-9a51-6e66f0e0c0de",
+      "supp_feat": "0",
+      "af_app_id": "nef-qod-pricing",
+      "cache_bsf": false,
+      "sbi_timeout_s": 5.0,
+      "log_dir": "results/nef"
+    },
+    "enforcer": {
+      "mode": "tc",
+      "dev": "ogstun",
+      "base_delay_ms": 10,
+      "be_limit_pkts": 300,
+      "gbr_limit_pkts": 100
+    },
+    "pricing": {
+      "prices_file": "results/prices/prices.json",
+      "default_policy": "safe_strict",
+      "default_rationing": "random",
+      "batch_window_s": 1.5,
+      "eps": 0.05,
+      "history_days": 60,
+      "eta_mean": 0.01,
+      "n_design": 40,
+      "n_fine": 60,
+      "window_slots": [
+        3,
+        9,
+        12,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "policies": [
+        "no_nef",
+        "safe_mean",
+        "safe_strict",
+        "safe_gated",
+        "safe_gated_mean",
+        "safe_mean_eta",
+        "quantile",
+        "congestion_noext",
+        "flat_rev",
+        "revenue_max"
+      ]
+    },
+    "profiles": {
+      "QOD_VIDEO": {
+        "class": "video",
+        "medType": "VIDEO",
+        "ul_mbps": 0.2
+      },
+      "QOD_GAMING": {
+        "class": "gaming",
+        "medType": "VIDEO",
+        "ul_mbps": 0.5
+      },
+      "QOD_VOICE": {
+        "class": "voice",
+        "medType": "AUDIO",
+        "ul_mbps": 0.12
+      },
+      "QOD_WEB": {
+        "class": "web",
+        "medType": "VIDEO",
+        "ul_mbps": 0.2
+      }
+    },
+    "traffic": {
+      "udp_echo_port": 5000,
+      "udp_stream_port": 5001,
+      "tcp_port": 8000,
+      "warmup_s": 6,
+      "voice": {
+        "pps": 50,
+        "payload": 160,
+        "jitter_buffer_ms": 60,
+        "codec_delay_ms": 25
+      },
+      "gaming": {
+        "probe_pps": 30,
+        "pkt_bytes": 1200
+      },
+      "video": {
+        "segment_s": 2.0,
+        "ladder_kbps_real": [
+          400,
+          1000,
+          2500,
+          5000
+        ],
+        "safety": 0.8
+      },
+      "web": {
+        "page_kb_real": 2500,
+        "objects": 24,
+        "parallel": 6
+      }
+    },
+    "scenario": {
+      "slot_seconds": 90,
+      "cooldown_s": 4,
+      "forecast_cv": 0.12,
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "request_spacing_ms": 20
+    },
+    "_path": "/lab/config/lab.yaml"
+  }
+}

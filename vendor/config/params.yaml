@@ -1,0 +1,51 @@
+# Paramètres de calibration — chaque valeur a une source et un statut dans CALIBRATION.md.
+# Unités : débits en Mbit/s, prix en u.m. (EUR) par Mbit/s réservé et par créneau d'une heure,
+# theta en u.m. par point de MOS, par session et par heure.
+
+capacity_R: 4500.0          # Mbit/s, capacité agrégée de la zone (hypothèse de scénario)
+cost_c: 0.003               # u.m. / (Mbit/s . h), coût marginal de la réservation (hypothèse)
+fixed_cost_F: 120.0         # u.m. / jour, coût fixe du service d'exposition (hypothèse)
+slots: 24                   # créneaux d'une heure
+fit_L_min: 0.5              # linéarisation dans la zone de congestion : L dans [0,5 R ; R]
+afs_per_class: [0.5, 0.3, 0.2]   # chaque classe est servie par 3 AF (parts de marché)
+theta_spread: [1.2, 1.0, 0.8]    # hétérogénéité des valeurs theta au sein d'une classe
+
+network:
+  base_delay_ms: 10.0       # délai aller simple hors file (cœur + transport)
+  service_ms: 1.5           # temps de service moyen équivalent (file M/M/1)
+  buffer_pkts: 60           # taille de file pour les pertes M/M/1/K
+  peak_factor: 2.0          # débit crête d'un flux best-effort = 2 x sa demande moyenne
+
+demand:
+  forecast_cv: 0.12         # coefficient de variation de la prévision NEF
+  profile: two_peaks        # pointes midi et soir (profil diurne stylisé)
+
+classes:
+  - name: video
+    qoe_model: video        # ITU-T P.1203 mode 0 (itu-p1203)
+    a: 4.0                  # demande moyenne best-effort (720p ABR)
+    b: 8.0                  # réservation GBR (1080p, palier 5 Mbit/s / 0,8 + marge)
+    X_peak: 250
+    theta: 0.15
+    profile_weight_evening: 1.0
+  - name: gaming
+    qoe_model: gaming       # forme IQX type G.1072 (hypothèse)
+    a: 10.0
+    b: 20.0                 # 1080p60 jeu en nuage : 15-25 Mbit/s
+    X_peak: 60
+    theta: 0.40
+    profile_weight_evening: 1.3
+  - name: voice
+    qoe_model: voice        # ITU-T G.107 (E-model), G.711 + PLC
+    a: 0.06
+    b: 0.12
+    X_peak: 300
+    theta: 0.05
+    profile_weight_evening: 0.8
+  - name: web
+    qoe_model: web          # relation logarithmique type G.1030 (hypothèse)
+    a: 6.0
+    b: 12.0
+    X_peak: 300
+    theta: 0.03
+    profile_weight_evening: 0.9

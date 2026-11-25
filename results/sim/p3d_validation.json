@@ -1,0 +1,25 @@
+{
+  "hours": "17h-24h",
+  "levels": 8,
+  "plans": 2097152,
+  "max_switch": null,
+  "dp_front": 5500,
+  "dp_seconds": 2.44,
+  "axes": [
+    "profit",
+    "harm",
+    "dmos"
+  ],
+  "color": "p5",
+  "rationing": "random",
+  "bruteforce_plans": 2097152,
+  "bruteforce_seconds": 0.08,
+  "choco_problems": 450,
+  "choco_seconds": 12.7,
+  "choco_front": 89,
+  "max_gap_vs_dp": 0.0,
+  "max_gap_vs_bruteforce": 0.0,
+  "choco_hypervolume_share": 0.9634,
+  "choco_points_on_exact_front": 89,
+  "dissat_no_nef": 3.003981804906098
+}

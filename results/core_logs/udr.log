@@ -1,0 +1,18 @@
+Open5GS daemon v2.8.0
+
+[32m11/23 08:58:16.890[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/etc/open5gs/udr.yaml' (../lib/app/ogs-init.c:144)
+[32m11/23 08:58:16.890[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/var/log/open5gs/udr.log' (../lib/app/ogs-init.c:147)
+[32m11/23 08:58:16.893[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:499)
+[32m11/23 08:58:16.895[0m: [[33mdbi[0m] [1;32mINFO[0m: MongoDB URI: 'mongodb://192.168.250.5/open5gs' (../lib/dbi/ogs-mongoc.c:128)
+[32m11/23 08:58:16.895[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nudr-dr] (../lib/sbi/context.c:2012)
+[32m11/23 08:58:16.895[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:454)
+[32m11/23 08:58:16.896[0m: [[33mapp[0m] [1;32mINFO[0m: UDR initialize...done (../src/udr/app.c:31)
+[32m11/23 08:58:16.899[0m: [[33msbi[0m] [1;32mINFO[0m: [05e11094-e71c-41f1-b948-13ca8b289123] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:368)
+[32m11/23 08:58:16.901[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:1113)
+[32m11/23 08:58:16.901[0m: [[33msbi[0m] [1;32mINFO[0m: [05e222ae-e71c-41f1-84ec-710b8360bcc2] Subscription created until 2026-11-24T08:58:16.900337+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m11/23 20:58:16.911[0m: [[33mudr[0m] [1;32mINFO[0m: [05e222ae-e71c-41f1-84ec-710b8360bcc2] Need to update Subscription (../src/udr/udr-sm.c:372)
+[32m11/23 20:58:16.913[0m: [[33msbi[0m] [1;32mINFO[0m: [05e222ae-e71c-41f1-84ec-710b8360bcc2] Subscription updated(204 No Content) until 2026-11-24T20:58:16.913087+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m11/24 08:58:16.922[0m: [[33mudr[0m] [1;32mINFO[0m: [05e222ae-e71c-41f1-84ec-710b8360bcc2] Need to update Subscription (../src/udr/udr-sm.c:372)
+[32m11/24 08:58:16.924[0m: [[33msbi[0m] [1;32mINFO[0m: [05e222ae-e71c-41f1-84ec-710b8360bcc2] Subscription updated(204 No Content) until 2026-11-25T08:58:16.924244+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m11/24 20:58:16.933[0m: [[33mudr[0m] [1;32mINFO[0m: [05e222ae-e71c-41f1-84ec-710b8360bcc2] Need to update Subscription (../src/udr/udr-sm.c:372)
+[32m11/24 20:58:16.935[0m: [[33msbi[0m] [1;32mINFO[0m: [05e222ae-e71c-41f1-84ec-710b8360bcc2] Subscription updated(204 No Content) until 2026-11-25T20:58:16.935373+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)

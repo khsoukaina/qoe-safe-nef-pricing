@@ -1,0 +1,449 @@
+nohup: ignoring input
+
+===== 11:55 1/8 prix (modèle calibré sur le banc)
+[lab] calibration: results/calibration_testbed.json
+demand surfaces ready (58.4 s)
+conformal quantile q = 1.1428  (n = 60, eps = 0.05)
+[random] slot 3h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00431  voice=0.003
+[random] slot 9h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00435  voice=0.003
+[random] slot 12h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00334  safe_strict=0.00334  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00334  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.12847  voice=0.003
+[random] slot 16h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00422  voice=0.003
+[random] slot 17h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00435  voice=0.003
+[random] slot 18h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00334  safe_strict=0.00334  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00334  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.14202  voice=0.003
+[random] slot 19h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00406  safe_strict=0.00406  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00406  quantile=0.00324  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.32237  voice=0.00897
+[random] slot 20h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.0071  safe_strict=0.0071  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.0071  quantile=0.00674  congestion_noext=0.00501  flat_rev=0.22044  revenue_max=0.41189  voice=0.00747
+[random] slot 21h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00406  safe_strict=0.00406  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00406  quantile=0.00324  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.32236  voice=0.00897
+[random] slot 22h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00334  safe_strict=0.00334  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00334  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.14194  voice=0.003
+[random] slot 23h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00434  voice=0.003
+[priority] slot 3h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00431  voice=0.003
+[priority] slot 9h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00435  voice=0.003
+[priority] slot 12h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00334  safe_strict=0.00334  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00334  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.12847  voice=0.003
+[priority] slot 16h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00422  voice=0.003
+[priority] slot 17h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00435  voice=0.003
+[priority] slot 18h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00334  safe_strict=0.00334  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00334  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.14202  voice=0.003
+[priority] slot 19h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00324  safe_strict=0.00324  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00324  quantile=0.00324  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.32237  voice=0.00897
+[priority] slot 20h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00674  safe_strict=0.00674  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00674  quantile=0.00674  congestion_noext=0.00501  flat_rev=0.22044  revenue_max=0.41189  voice=0.00747
+[priority] slot 21h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00324  safe_strict=0.00324  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00324  quantile=0.00324  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.32236  voice=0.00897
+[priority] slot 22h  allowed=[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]  no_nef=inf  safe_mean=0.00334  safe_strict=0.00334  safe_gated=inf  safe_gated_mean=inf  safe_mean_eta=0.00334  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.14194  voice=0.003
+[priority] slot 23h  allowed=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  no_nef=inf  safe_mean=0.003  safe_strict=0.003  safe_gated=0.003  safe_gated_mean=0.003  safe_mean_eta=0.003  quantile=0.003  congestion_noext=0.003  flat_rev=0.22044  revenue_max=0.00434  voice=0.003
+written /lab/results/prices/prices.json  (total 1017 s)
+
+===== 12:12 2/8 nouveau NEF + santé des UE
+[lab] calibration: results/calibration_testbed.json
+[2026-11-20 11:12:51 +0000] [3849] [INFO] Running on http://0.0.0.0:8080 (CTRL + C to quit)
+[lab] calibration: results/calibration_testbed.json
+OK  uesimtun0  10.45.0.123  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.227 
+OK  uesimtun1  10.45.0.122  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.247 
+OK  uesimtun2  10.45.0.125  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.219 
+OK  uesimtun3  10.45.0.126  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.265 
+OK  uesimtun4  10.45.0.128  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.242 
+OK  uesimtun5  10.45.0.124  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.252 
+OK  uesimtun6  10.45.0.129  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.234 
+OK  uesimtun7  10.45.0.127  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.258 
+OK  uesimtun8  10.45.0.130  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.236 
+OK  uesimtun9  10.45.0.131  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.218 
+OK  uesimtun10 10.45.0.133  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.229 
+OK  uesimtun11 10.45.0.132  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.25 
+OK  uesimtun12 10.45.0.137  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.242 
+OK  uesimtun13 10.45.0.134  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.224 
+OK  uesimtun14 10.45.0.136  udp_loss=0.00 rtt=13.6 ms tcp=ok 0.254 
+OK  uesimtun15 10.45.0.135  udp_loss=0.00 rtt=13.6 ms tcp=ok 0.252 
+OK  uesimtun16 10.45.0.138  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.25 
+OK  uesimtun17 10.45.0.139  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.23 
+OK  uesimtun18 10.45.0.141  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.199 
+OK  uesimtun19 10.45.0.143  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.243 
+OK  uesimtun20 10.45.0.142  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.237 
+OK  uesimtun21 10.45.0.140  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.223 
+OK  uesimtun22 10.45.0.144  udp_loss=0.00 rtt=13.6 ms tcp=ok 0.25 
+OK  uesimtun23 10.45.0.145  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.244 
+OK  uesimtun24 10.45.0.146  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.205 
+OK  uesimtun25 10.45.0.148  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.24 
+OK  uesimtun26 10.45.0.150  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.228 
+OK  uesimtun27 10.45.0.151  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.221 
+OK  uesimtun28 10.45.0.149  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.247 
+OK  uesimtun29 10.45.0.147  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.233 
+OK  uesimtun30 10.45.0.152  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.246 
+OK  uesimtun31 10.45.0.153  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.247 
+OK  uesimtun32 10.45.0.154  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.153 
+OK  uesimtun33 10.45.0.155  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.219 
+OK  uesimtun34 10.45.0.157  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.226 
+OK  uesimtun35 10.45.0.156  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.239 
+OK  uesimtun36 10.45.0.158  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.245 
+OK  uesimtun37 10.45.0.159  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.232 
+OK  uesimtun38 10.45.0.160  udp_loss=0.00 rtt=13.6 ms tcp=ok 0.247 
+OK  uesimtun39 10.45.0.161  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.241 
+OK  uesimtun40 10.45.0.162  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.083 
+OK  uesimtun41 10.45.0.163  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.244 
+OK  uesimtun42 10.45.0.165  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.237 
+OK  uesimtun43 10.45.0.164  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.218 
+OK  uesimtun44 10.45.0.166  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.231 
+OK  uesimtun45 10.45.0.167  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.224 
+OK  uesimtun46 10.45.0.168  udp_loss=0.00 rtt=13.6 ms tcp=ok 0.236 
+OK  uesimtun47 10.45.0.169  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.234 
+OK  uesimtun48 10.45.0.170  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.078 
+OK  uesimtun49 10.45.0.171  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.213 
+OK  uesimtun50 10.45.0.172  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.166 
+OK  uesimtun51 10.45.0.173  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.201 
+OK  uesimtun52 10.45.0.177  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.207 
+OK  uesimtun53 10.45.0.174  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.223 
+OK  uesimtun54 10.45.0.175  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.216 
+OK  uesimtun55 10.45.0.176  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.209 
+OK  uesimtun56 10.45.0.178  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.079 
+OK  uesimtun57 10.45.0.179  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.084 
+OK  uesimtun58 10.45.0.180  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.196 
+OK  uesimtun59 10.45.0.181  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.191 
+OK  uesimtun60 10.45.0.184  udp_loss=0.00 rtt=12.6 ms tcp=ok 0.21 
+OK  uesimtun61 10.45.0.182  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.203 
+OK  uesimtun62 10.45.0.183  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.211 
+OK  uesimtun63 10.45.0.185  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.218 
+
+64 / 64 UEs healthy
+
+===== 12:13 3/8 conformité finale (code définitif)
+[lab] calibration: results/calibration_testbed.json
+3GPP OpenAPI specs at commit 117674b61cd9ae4f68f5b5f91ec63686b8930cab
+TS29122_AsSessionWithQoS.yaml
+TS29510_Nnrf_NFDiscovery.yaml
+TS29510_Nnrf_NFManagement.yaml
+TS29514_Npcf_PolicyAuthorization.yaml
+TS29521_Nbsf_Management.yaml
+[PASS] prices posted for the slot {"QOD_VIDEO": 0.003, "QOD_GAMING": 0.003, "QOD_VOICE": 0.003, "QOD_WEB": 0.003}
+[PASS] POST valid subscription -> 201 got 201 {"notificationDestination":"http://127.0.0.1:9999/af-notify","ueIpv4Addr":"10.45.0.123","qosReference":"QOD_VOICE","flowInfo":[{"flowId":1,"flowDescriptions":["permit out 17 from 10.60.0.1 5000 to 10.
+[PASS] Location header present http://192.168.250.10:8080/3gpp-as-session-with-qos/v1/af-conf/subscriptions/2a1f7a40b5224144
+[PASS] body.self == Location 
+[PASS] X-Nef-Timing header (decision latency) price_ms=0.213;admission_ms=0.007;bsf_ms=22.108;pcf_ms=9.389;enf_ms=0.024;total_ms=31.867
+[PASS] GET individual -> 200 
+[PASS] GET collection -> 200 and contains it 
+[PASS] PATCH qosReference -> 200 (PCF update) 200 {"notificationDestination":"http://127.0.0.1:9999/af-notify","ueIpv4Addr":"10.45.0.123","qosReference":"QOD_WEB","flowInfo":[{"flowId":1,"flowDescriptions":["permit out 17 from 10.60.0.1 5000 to 10.45
+[PASS] DELETE -> 204 (PCF delete, GBR class released) 204
+[PASS] GET after DELETE -> 404 ProblemDetails 
+[PASS] POST missing notificationDestination -> 400 ProblemDetails+invalidParams 400
+[PASS] POST invalid UE address -> 400 ProblemDetails+invalidParams 400
+[PASS] POST unknown qosReference -> 400 ProblemDetails+invalidParams 400
+[PASS] POST missing flowInfo -> 400 ProblemDetails+invalidParams 400
+[PASS] POST malformed JSON -> 400 
+[PASS] DELETE unknown -> 404 
+[PASS] GET /nef-pricing/v1/prices -> 200 
+
+17/17 behavioural checks passed. Now run: python conformance/validate.py
+
+===== 13:49 4/8 scénario général (tous régimes)
+[lab] calibration: results/calibration_testbed.json
+OK  uesimtun0  10.45.0.123  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.275 
+OK  uesimtun1  10.45.0.122  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.248 
+OK  uesimtun2  10.45.0.125  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.262 
+OK  uesimtun3  10.45.0.126  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.254 
+OK  uesimtun4  10.45.0.128  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.269 
+OK  uesimtun5  10.45.0.124  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.239 
+OK  uesimtun6  10.45.0.129  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.227 
+OK  uesimtun7  10.45.0.127  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.232 
+OK  uesimtun8  10.45.0.130  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.224 
+OK  uesimtun9  10.45.0.131  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.231 
+OK  uesimtun10 10.45.0.133  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.207 
+OK  uesimtun11 10.45.0.132  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.239 
+OK  uesimtun12 10.45.0.137  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.215 
+OK  uesimtun13 10.45.0.134  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.232 
+OK  uesimtun14 10.45.0.136  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.217 
+OK  uesimtun15 10.45.0.135  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.243 
+OK  uesimtun16 10.45.0.138  udp_loss=0.00 rtt=12.2 ms tcp=ok 0.232 
+OK  uesimtun17 10.45.0.139  udp_loss=0.00 rtt=11.9 ms tcp=ok 0.218 
+OK  uesimtun18 10.45.0.141  udp_loss=0.00 rtt=11.9 ms tcp=ok 0.238 
+OK  uesimtun19 10.45.0.143  udp_loss=0.00 rtt=11.8 ms tcp=ok 0.226 
+OK  uesimtun20 10.45.0.142  udp_loss=0.00 rtt=11.8 ms tcp=ok 0.212 
+OK  uesimtun21 10.45.0.140  udp_loss=0.00 rtt=11.8 ms tcp=ok 0.197 
+OK  uesimtun22 10.45.0.144  udp_loss=0.00 rtt=12.2 ms tcp=ok 0.238 
+OK  uesimtun23 10.45.0.145  udp_loss=0.00 rtt=12.1 ms tcp=ok 0.237 
+OK  uesimtun24 10.45.0.146  udp_loss=0.00 rtt=12.5 ms tcp=ok 0.213 
+OK  uesimtun25 10.45.0.148  udp_loss=0.00 rtt=12.0 ms tcp=ok 0.234 
+OK  uesimtun26 10.45.0.150  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.245 
+OK  uesimtun27 10.45.0.151  udp_loss=0.00 rtt=12.1 ms tcp=ok 0.226 
+OK  uesimtun28 10.45.0.149  udp_loss=0.00 rtt=12.1 ms tcp=ok 0.239 
+OK  uesimtun29 10.45.0.147  udp_loss=0.00 rtt=12.2 ms tcp=ok 0.22 
+OK  uesimtun30 10.45.0.152  udp_loss=0.00 rtt=12.0 ms tcp=ok 0.215 
+OK  uesimtun31 10.45.0.153  udp_loss=0.00 rtt=12.4 ms tcp=ok 0.241 
+OK  uesimtun32 10.45.0.154  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.216 
+OK  uesimtun33 10.45.0.155  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.23 
+OK  uesimtun34 10.45.0.157  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.217 
+OK  uesimtun35 10.45.0.156  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.222 
+OK  uesimtun36 10.45.0.158  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.204 
+OK  uesimtun37 10.45.0.159  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.213 
+OK  uesimtun38 10.45.0.160  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.24 
+OK  uesimtun39 10.45.0.161  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.237 
+OK  uesimtun40 10.45.0.162  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.224 
+OK  uesimtun41 10.45.0.163  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.202 
+OK  uesimtun42 10.45.0.165  udp_loss=0.00 rtt=12.6 ms tcp=ok 0.23 
+OK  uesimtun43 10.45.0.164  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.191 
+OK  uesimtun44 10.45.0.166  udp_loss=0.00 rtt=12.6 ms tcp=ok 0.196 
+OK  uesimtun45 10.45.0.167  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.194 
+OK  uesimtun46 10.45.0.168  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.225 
+OK  uesimtun47 10.45.0.169  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.23 
+OK  uesimtun48 10.45.0.170  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.171 
+OK  uesimtun49 10.45.0.171  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.187 
+OK  uesimtun50 10.45.0.172  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.16 
+OK  uesimtun51 10.45.0.173  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.162 
+OK  uesimtun52 10.45.0.177  udp_loss=0.00 rtt=13.5 ms tcp=ok 0.218 
+OK  uesimtun53 10.45.0.174  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.206 
+OK  uesimtun54 10.45.0.175  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.221 
+OK  uesimtun55 10.45.0.176  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.219 
+OK  uesimtun56 10.45.0.178  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.143 
+OK  uesimtun57 10.45.0.179  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.16 
+OK  uesimtun58 10.45.0.180  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.154 
+OK  uesimtun59 10.45.0.181  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.153 
+OK  uesimtun60 10.45.0.184  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.217 
+OK  uesimtun61 10.45.0.182  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.222 
+OK  uesimtun62 10.45.0.183  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.212 
+OK  uesimtun63 10.45.0.185  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.207 
+
+64 / 64 UEs healthy
+[lab] calibration: results/calibration_testbed.json
+64 healthy UEs; NEF http://192.168.250.10:8080; R_tb=56.25 Mbit/s; slots [3, 9, 12, 16, 20]
+== policy=safe_gated_mean rationing=random seed=1
+  slot 3h x=0.89 sessions=7 requested=3 granted=3 MOS=4.441
+  slot 9h x=0.80 sessions=20 requested=6 granted=6 MOS=4.434
+  slot 12h x=1.10 sessions=37 requested=14 granted=14 MOS=4.420
+  slot 16h x=0.78 sessions=11 requested=4 granted=4 MOS=4.450
+  slot 20h x=1.24 sessions=58 requested=19 granted=19 MOS=4.048
+== policy=safe_mean rationing=random seed=1
+  slot 3h x=0.89 sessions=7 requested=3 granted=3 MOS=4.441
+  slot 9h x=0.80 sessions=20 requested=6 granted=6 MOS=4.416
+  slot 12h x=1.10 sessions=37 requested=17 granted=17 MOS=4.428
+  slot 16h x=0.78 sessions=11 requested=4 granted=4 MOS=4.450
+  slot 20h x=1.24 sessions=58 requested=22 granted=22 MOS=3.789
+== policy=no_nef#2 rationing=random seed=1
+  slot 3h x=0.89 sessions=7 requested=0 granted=0 MOS=4.441
+  slot 9h x=0.80 sessions=20 requested=0 granted=0 MOS=4.343
+  slot 12h x=1.10 sessions=37 requested=0 granted=0 MOS=4.041
+  slot 16h x=0.78 sessions=11 requested=0 granted=0 MOS=4.448
+  slot 20h x=1.24 sessions=58 requested=0 granted=0 MOS=3.769
+== policy=safe_strict rationing=random seed=1
+  slot 3h x=0.89 sessions=7 requested=3 granted=3 MOS=4.441
+  slot 9h x=0.80 sessions=20 requested=6 granted=6 MOS=4.430
+  slot 12h x=1.10 sessions=37 requested=17 granted=17 MOS=4.429
+  slot 16h x=0.78 sessions=11 requested=4 granted=4 MOS=4.450
+  slot 20h x=1.24 sessions=58 requested=22 granted=22 MOS=3.763
+== policy=no_nef rationing=random seed=1
+  slot 3h x=0.89 sessions=7 requested=0 granted=0 MOS=4.441
+  slot 9h x=0.80 sessions=20 requested=0 granted=0 MOS=4.326
+  slot 12h x=1.10 sessions=37 requested=0 granted=0 MOS=4.082
+  slot 16h x=0.78 sessions=11 requested=0 granted=0 MOS=4.450
+  slot 20h x=1.24 sessions=58 requested=0 granted=0 MOS=3.755
+== policy=no_nef rationing=random seed=2
+  slot 3h x=0.83 sessions=9 requested=0 granted=0 MOS=4.439
+  slot 9h x=0.94 sessions=23 requested=0 granted=0 MOS=4.195
+  slot 12h x=1.08 sessions=34 requested=0 granted=0 MOS=4.013
+  slot 16h x=1.01 sessions=15 requested=0 granted=0 MOS=4.376
+  slot 20h x=0.70 sessions=33 requested=0 granted=0 MOS=3.956
+== policy=safe_strict rationing=random seed=2
+  slot 3h x=0.83 sessions=9 requested=2 granted=2 MOS=4.439
+  slot 9h x=0.94 sessions=23 requested=8 granted=8 MOS=4.433
+  slot 12h x=1.08 sessions=34 requested=16 granted=16 MOS=4.452
+  slot 16h x=1.01 sessions=15 requested=6 granted=6 MOS=4.445
+  slot 20h x=0.70 sessions=33 requested=10 granted=10 MOS=4.393
+== policy=safe_mean rationing=random seed=2
+  slot 3h x=0.83 sessions=9 requested=2 granted=2 MOS=4.439
+  slot 9h x=0.94 sessions=23 requested=8 granted=8 MOS=4.416
+  slot 12h x=1.08 sessions=34 requested=16 granted=16 MOS=4.452
+  slot 16h x=1.01 sessions=15 requested=6 granted=6 MOS=4.445
+  slot 20h x=0.70 sessions=33 requested=10 granted=10 MOS=4.398
+== policy=safe_gated_mean rationing=random seed=2
+  slot 3h x=0.83 sessions=9 requested=2 granted=2 MOS=4.439
+  slot 9h x=0.94 sessions=23 requested=8 granted=8 MOS=4.425
+  slot 12h x=1.08 sessions=34 requested=12 granted=12 MOS=4.452
+  slot 16h x=1.01 sessions=15 requested=6 granted=6 MOS=4.445
+  slot 20h x=0.70 sessions=33 requested=10 granted=10 MOS=4.400
+== policy=no_nef#2 rationing=random seed=2
+  slot 3h x=0.83 sessions=9 requested=0 granted=0 MOS=4.439
+  slot 9h x=0.94 sessions=23 requested=0 granted=0 MOS=4.171
+  slot 12h x=1.08 sessions=34 requested=0 granted=0 MOS=3.968
+  slot 16h x=1.01 sessions=15 requested=0 granted=0 MOS=4.383
+  slot 20h x=0.70 sessions=33 requested=0 granted=0 MOS=3.948
+== policy=safe_strict rationing=random seed=3
+  slot 3h x=0.99 sessions=11 requested=5 granted=5 MOS=4.450
+  slot 9h x=0.80 sessions=19 requested=8 granted=8 MOS=4.449
+  slot 12h x=0.94 sessions=31 requested=13 granted=13 MOS=4.434
+  slot 16h x=1.07 sessions=17 requested=5 granted=5 MOS=4.452
+  slot 20h x=0.87 sessions=37 requested=13 granted=13 MOS=4.432
+== policy=safe_mean rationing=random seed=3
+  slot 3h x=0.99 sessions=11 requested=5 granted=5 MOS=4.450
+  slot 9h x=0.80 sessions=19 requested=8 granted=8 MOS=4.449
+  slot 12h x=0.94 sessions=31 requested=13 granted=13 MOS=4.433
+  slot 16h x=1.07 sessions=17 requested=5 granted=5 MOS=4.450
+  slot 20h x=0.87 sessions=37 requested=13 granted=13 MOS=4.432
+== policy=safe_gated_mean rationing=random seed=3
+  slot 3h x=0.99 sessions=11 requested=5 granted=5 MOS=4.450
+  slot 9h x=0.80 sessions=19 requested=8 granted=8 MOS=4.449
+  slot 12h x=0.94 sessions=31 requested=11 granted=11 MOS=4.420
+  slot 16h x=1.07 sessions=17 requested=5 granted=5 MOS=4.451
+  slot 20h x=0.87 sessions=37 requested=13 granted=13 MOS=4.433
+== policy=no_nef rationing=random seed=3
+  slot 3h x=0.99 sessions=11 requested=0 granted=0 MOS=4.426
+  slot 9h x=0.80 sessions=19 requested=0 granted=0 MOS=4.373
+  slot 12h x=0.94 sessions=31 requested=0 granted=0 MOS=4.191
+  slot 16h x=1.07 sessions=17 requested=0 granted=0 MOS=4.397
+  slot 20h x=0.87 sessions=37 requested=0 granted=0 MOS=3.850
+== policy=no_nef#2 rationing=random seed=3
+  slot 3h x=0.99 sessions=11 requested=0 granted=0 MOS=4.425
+  slot 9h x=0.80 sessions=19 requested=0 granted=0 MOS=4.395
+  slot 12h x=0.94 sessions=31 requested=0 granted=0 MOS=4.179
+  slot 16h x=1.07 sessions=17 requested=0 granted=0 MOS=4.424
+  slot 20h x=0.87 sessions=37 requested=0 granted=0 MOS=3.822
+done -> /lab/results/testbed/general
+
+===== 15:51 5/8 pic imprévu (régime saturé)
+[lab] calibration: results/calibration_testbed.json
+OK  uesimtun0  10.45.0.123  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.222 
+OK  uesimtun1  10.45.0.122  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.24 
+OK  uesimtun2  10.45.0.125  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.253 
+OK  uesimtun3  10.45.0.126  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.227 
+OK  uesimtun4  10.45.0.128  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.267 
+OK  uesimtun5  10.45.0.124  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.246 
+OK  uesimtun6  10.45.0.129  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.258 
+OK  uesimtun7  10.45.0.127  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.234 
+OK  uesimtun8  10.45.0.130  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.222 
+OK  uesimtun9  10.45.0.131  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.255 
+OK  uesimtun10 10.45.0.133  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.229 
+OK  uesimtun11 10.45.0.132  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.249 
+OK  uesimtun12 10.45.0.137  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.237 
+OK  uesimtun13 10.45.0.134  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.216 
+OK  uesimtun14 10.45.0.136  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.241 
+OK  uesimtun15 10.45.0.135  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.251 
+OK  uesimtun16 10.45.0.138  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.241 
+OK  uesimtun17 10.45.0.139  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.221 
+OK  uesimtun18 10.45.0.141  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.234 
+OK  uesimtun19 10.45.0.143  udp_loss=0.00 rtt=12.6 ms tcp=ok 0.204 
+OK  uesimtun20 10.45.0.142  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.214 
+OK  uesimtun21 10.45.0.140  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.229 
+OK  uesimtun22 10.45.0.144  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.243 
+OK  uesimtun23 10.45.0.145  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.243 
+OK  uesimtun24 10.45.0.146  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.231 
+OK  uesimtun25 10.45.0.148  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.224 
+OK  uesimtun26 10.45.0.150  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.214 
+OK  uesimtun27 10.45.0.151  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.217 
+OK  uesimtun28 10.45.0.149  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.212 
+OK  uesimtun29 10.45.0.147  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.215 
+OK  uesimtun30 10.45.0.152  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.243 
+OK  uesimtun31 10.45.0.153  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.235 
+OK  uesimtun32 10.45.0.154  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.2 
+OK  uesimtun33 10.45.0.155  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.202 
+OK  uesimtun34 10.45.0.157  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.23 
+OK  uesimtun35 10.45.0.156  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.203 
+OK  uesimtun36 10.45.0.158  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.21 
+OK  uesimtun37 10.45.0.159  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.217 
+OK  uesimtun38 10.45.0.160  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.232 
+OK  uesimtun39 10.45.0.161  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.229 
+OK  uesimtun40 10.45.0.162  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.184 
+OK  uesimtun41 10.45.0.163  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.19 
+OK  uesimtun42 10.45.0.165  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.197 
+OK  uesimtun43 10.45.0.164  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.181 
+OK  uesimtun44 10.45.0.166  udp_loss=0.00 rtt=12.8 ms tcp=ok 0.182 
+OK  uesimtun45 10.45.0.167  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.21 
+OK  uesimtun46 10.45.0.168  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.229 
+OK  uesimtun47 10.45.0.169  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.224 
+OK  uesimtun48 10.45.0.170  udp_loss=0.00 rtt=12.1 ms tcp=ok 0.168 
+OK  uesimtun49 10.45.0.171  udp_loss=0.00 rtt=11.9 ms tcp=ok 0.2 
+OK  uesimtun50 10.45.0.172  udp_loss=0.00 rtt=12.1 ms tcp=ok 0.187 
+OK  uesimtun51 10.45.0.173  udp_loss=0.00 rtt=12.0 ms tcp=ok 0.172 
+OK  uesimtun52 10.45.0.177  udp_loss=0.00 rtt=12.2 ms tcp=ok 0.171 
+OK  uesimtun53 10.45.0.174  udp_loss=0.00 rtt=12.7 ms tcp=ok 0.221 
+OK  uesimtun54 10.45.0.175  udp_loss=0.00 rtt=12.3 ms tcp=ok 0.214 
+OK  uesimtun55 10.45.0.176  udp_loss=0.00 rtt=11.9 ms tcp=ok 0.22 
+OK  uesimtun56 10.45.0.178  udp_loss=0.00 rtt=13.2 ms tcp=ok 0.175 
+OK  uesimtun57 10.45.0.179  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.157 
+OK  uesimtun58 10.45.0.180  udp_loss=0.00 rtt=13.1 ms tcp=ok 0.168 
+OK  uesimtun59 10.45.0.181  udp_loss=0.00 rtt=13.3 ms tcp=ok 0.17 
+OK  uesimtun60 10.45.0.184  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.184 
+OK  uesimtun61 10.45.0.182  udp_loss=0.00 rtt=13.0 ms tcp=ok 0.212 
+OK  uesimtun62 10.45.0.183  udp_loss=0.00 rtt=13.4 ms tcp=ok 0.211 
+OK  uesimtun63 10.45.0.185  udp_loss=0.00 rtt=12.9 ms tcp=ok 0.207 
+
+64 / 64 UEs healthy
+[lab] calibration: results/calibration_testbed.json
+64 healthy UEs; NEF http://192.168.250.10:8080; R_tb=56.25 Mbit/s; slots [12, 20]
+== policy=safe_strict rationing=random seed=1
+  slot 12h x=1.43 sessions=46 requested=22 granted=22 MOS=4.385
+  ! 73 sessions > 64 UEs: truncated (increase core.ue_count)
+  slot 20h x=1.61 sessions=64 requested=28 granted=28 MOS=3.711
+== policy=safe_mean rationing=random seed=1
+  slot 12h x=1.43 sessions=46 requested=22 granted=22 MOS=4.392
+  ! 73 sessions > 64 UEs: truncated (increase core.ue_count)
+  slot 20h x=1.61 sessions=64 requested=28 granted=28 MOS=3.716
+== policy=no_nef rationing=random seed=1
+  slot 12h x=1.43 sessions=46 requested=0 granted=0 MOS=3.768
+  ! 73 sessions > 64 UEs: truncated (increase core.ue_count)
+  slot 20h x=1.61 sessions=64 requested=0 granted=0 MOS=3.519
+== policy=no_nef rationing=random seed=2
+  slot 12h x=1.41 sessions=44 requested=0 granted=0 MOS=3.842
+  slot 20h x=0.91 sessions=42 requested=0 granted=0 MOS=3.775
+== policy=safe_strict rationing=random seed=2
+  slot 12h x=1.41 sessions=44 requested=22 granted=22 MOS=4.438
+  slot 20h x=0.91 sessions=42 requested=16 granted=16 MOS=4.380
+== policy=safe_mean rationing=random seed=2
+  slot 12h x=1.41 sessions=44 requested=22 granted=22 MOS=4.438
+  slot 20h x=0.91 sessions=42 requested=16 granted=16 MOS=4.376
+== policy=safe_strict rationing=random seed=3
+  slot 12h x=1.23 sessions=40 requested=19 granted=19 MOS=4.422
+  slot 20h x=1.13 sessions=50 requested=17 granted=17 MOS=4.025
+== policy=no_nef rationing=random seed=3
+  slot 12h x=1.23 sessions=40 requested=0 granted=0 MOS=4.011
+  slot 20h x=1.13 sessions=50 requested=0 granted=0 MOS=3.642
+== policy=safe_mean rationing=random seed=3
+  slot 12h x=1.23 sessions=40 requested=19 granted=19 MOS=4.424
+  slot 20h x=1.13 sessions=50 requested=17 granted=17 MOS=4.038
+done -> /lab/results/testbed/surge
+
+===== 16:21 6/8 simulation Q1 (qui gagne, filtrage, décalage)
+[lab] calibration: results/calibration_testbed.json
+[random] no_nef             dMOS=+0.0000 buyers=+0.000 (0.0%) non-buyers=+0.0000 dissat=5.40% (base 5.40%) profit=0.00
+[random] safe_mean          dMOS=+0.2813 buyers=+0.712 (40.5%) non-buyers=-0.0038 dissat=0.34% (base 5.40%) profit=1.81
+[random] safe_strict        dMOS=+0.2813 buyers=+0.712 (40.5%) non-buyers=-0.0038 dissat=0.34% (base 5.40%) profit=1.81
+[random] safe_gated         dMOS=+0.2662 buyers=+0.814 (32.8%) non-buyers=-0.0007 dissat=0.01% (base 5.40%) profit=0.18
+[random] safe_gated_mean    dMOS=+0.2662 buyers=+0.814 (32.8%) non-buyers=-0.0007 dissat=0.01% (base 5.40%) profit=0.18
+[random] safe_mean_eta      dMOS=+0.2813 buyers=+0.712 (40.5%) non-buyers=-0.0038 dissat=0.34% (base 5.40%) profit=1.81
+[random] quantile           dMOS=+0.2821 buyers=+0.681 (43.4%) non-buyers=-0.0057 dissat=0.51% (base 5.40%) profit=1.17
+[random] congestion_noext   dMOS=+0.2805 buyers=+0.655 (45.1%) non-buyers=-0.0076 dissat=0.70% (base 5.40%) profit=0.70
+[random] flat_rev           dMOS=+0.2363 buyers=+1.053 (21.7%) non-buyers=-0.0007 dissat=0.00% (base 5.40%) profit=4.92
+[random] revenue_max        dMOS=+0.1924 buyers=+1.187 (15.3%) non-buyers=-0.0007 dissat=0.00% (base 5.40%) profit=5.68
+[priority] no_nef             dMOS=+0.0000 buyers=+0.000 (0.0%) non-buyers=+0.0000 dissat=5.40% (base 5.40%) profit=0.00
+[priority] safe_mean          dMOS=+0.2961 buyers=+0.687 (44.3%) non-buyers=-0.0015 dissat=0.00% (base 5.40%) profit=1.17
+[priority] safe_strict        dMOS=+0.2961 buyers=+0.687 (44.3%) non-buyers=-0.0015 dissat=0.00% (base 5.40%) profit=1.17
+[priority] safe_gated         dMOS=+0.2663 buyers=+0.814 (32.8%) non-buyers=-0.0007 dissat=0.00% (base 5.40%) profit=0.18
+[priority] safe_gated_mean    dMOS=+0.2663 buyers=+0.814 (32.8%) non-buyers=-0.0007 dissat=0.00% (base 5.40%) profit=0.18
+[priority] safe_mean_eta      dMOS=+0.2961 buyers=+0.687 (44.3%) non-buyers=-0.0015 dissat=0.00% (base 5.40%) profit=1.17
+[priority] quantile           dMOS=+0.2961 buyers=+0.687 (44.3%) non-buyers=-0.0015 dissat=0.00% (base 5.40%) profit=1.17
+[priority] congestion_noext   dMOS=+0.2998 buyers=+0.665 (46.2%) non-buyers=-0.0014 dissat=0.00% (base 5.40%) profit=0.70
+[priority] flat_rev           dMOS=+0.2363 buyers=+1.053 (21.7%) non-buyers=-0.0007 dissat=0.00% (base 5.40%) profit=4.92
+[priority] revenue_max        dMOS=+0.1924 buyers=+1.187 (15.3%) non-buyers=-0.0007 dissat=0.00% (base 5.40%) profit=5.68
+  -> figQ1a_who_gains
+  -> figQ1b_gating
+[shift] phi=0.00 evening dMOS=+0.1979±0.0031  profit=0.85  peak p=0.008506 shoulder p=0.003265
+[shift] phi=0.05 evening dMOS=+0.2008±0.0030  profit=0.92  peak p=0.006063 shoulder p=0.003459
+[shift] phi=0.10 evening dMOS=+0.2055±0.0030  profit=0.69  peak p=0.004396 shoulder p=0.003589
+[shift] phi=0.20 evening dMOS=+0.2138±0.0030  profit=0.32  peak p=0.003431 shoulder p=0.003275
+  -> figQ1c_shift
+
+===== 17:02 7/8 figures
+[lab] calibration: results/calibration_testbed.json
+  -> figT2_qoe_by_class_random_peak
+  -> figT3_who_gains_random_peak
+| policy | Δ MOS all | granted: Δ MOS | others: Δ MOS | Δ dissatisfied (pts) | Δ P5 MOS | rejected requests | requests | revenue (cell eq.) |
+|---|---|---|---|---|---|---|---|---|
+| QoE-safe (mean, η=0) | +0.541 ± 0.600 | +1.538 ± 0.491 | -0.045 ± 0.913 | -30.55 ± 38.37 | +1.279 ± 0.955 | 0.0% | 106 | 10.95 |
+| QoE-safe mean + gating | +0.812 ± 0.534 | +1.446 ± 0.673 | +0.511 ± 0.615 | -39.63 ± 39.76 | +1.686 ± 0.837 | 0.0% | 42 | 0.25 |
+| QoE-safe (strict) | +0.533 ± 0.616 | +1.538 ± 0.491 | -0.058 ± 0.940 | -31.27 ± 37.84 | +1.303 ± 0.865 | 0.0% | 106 | 10.95 |
+| no_nef#2 | +0.365 ± 0.123 | – | +0.365 ± 0.123 | -14.94 ± 8.80 | +0.398 ± 0.477 | 0.0% | 0 | 0.00 |
+  -> figT2_qoe_by_class_random_evening
+  -> figT3_who_gains_random_evening
+| policy | Δ MOS all | granted: Δ MOS | others: Δ MOS | Δ dissatisfied (pts) | Δ P5 MOS | rejected requests | requests | revenue (cell eq.) |
+|---|---|---|---|---|---|---|---|---|
+| QoE-safe (mean, η=0) | +0.269 ± 0.161 | +0.607 ± 0.353 | +0.045 ± 0.094 | -11.58 ± 10.07 | +0.618 ± 0.379 | 0.0% | 262 | 19.44 |
+| QoE-safe mean + gating | +0.345 ± 0.209 | +0.616 ± 0.355 | +0.204 ± 0.141 | -14.13 ± 11.98 | +0.704 ± 0.418 | 0.0% | 126 | 2.82 |
+| QoE-safe (strict) | +0.269 ± 0.160 | +0.607 ± 0.353 | +0.046 ± 0.097 | -11.72 ± 10.14 | +0.644 ± 0.373 | 0.0% | 262 | 19.44 |
+| no_nef#2 | +0.148 ± 0.102 | – | +0.148 ± 0.102 | -7.42 ± 7.26 | +0.179 ± 0.134 | 0.0% | 0 | 0.00 |
+  -> figT4_timeline_random
+  -> figT6_regimes_random
+
+===== 17:02 8/8 diagnostics
+./final_campaign.sh: line 14: results/testbed/general/diagnose.txt: Permission denied
+./final_campaign.sh: line 15: results/testbed/surge/diagnose.txt: Permission denied
+
+===== 17:02 TERMINE

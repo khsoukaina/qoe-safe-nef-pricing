@@ -1,0 +1,518 @@
+{
+ "t": 1795424364.934393,
+ "broken": [],
+ "details": [
+  {
+   "ue": "10.45.0.3",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.221,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.2",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.248,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.7",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.0,
+   "tcp_ok": true,
+   "tcp_s": 0.256,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.8",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.2,
+   "tcp_ok": true,
+   "tcp_s": 0.235,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.9",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.268,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.5",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.242,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.4",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.262,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.6",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.0,
+   "tcp_ok": true,
+   "tcp_s": 0.23,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.10",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.5,
+   "tcp_ok": true,
+   "tcp_s": 0.206,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.11",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.5,
+   "tcp_ok": true,
+   "tcp_s": 0.238,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.13",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.219,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.12",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.6,
+   "tcp_ok": true,
+   "tcp_s": 0.224,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.16",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.6,
+   "tcp_ok": true,
+   "tcp_s": 0.232,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.15",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.5,
+   "tcp_ok": true,
+   "tcp_s": 0.212,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.17",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.245,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.14",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.0,
+   "tcp_ok": true,
+   "tcp_s": 0.242,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.18",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.212,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.20",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.219,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.21",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.225,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.23",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.232,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.19",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.213,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.24",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.209,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.22",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.239,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.25",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.246,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.26",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.203,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.27",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.215,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.28",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.209,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.29",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.231,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.30",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.0,
+   "tcp_ok": true,
+   "tcp_s": 0.198,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.31",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.201,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.33",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.235,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.32",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.5,
+   "tcp_ok": true,
+   "tcp_s": 0.229,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.34",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.195,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.35",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.186,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.36",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.188,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.37",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.189,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.38",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.209,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.40",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.233,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.41",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.232,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.39",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.228,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.42",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.17,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.44",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.193,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.45",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.186,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.43",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.177,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.48",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.167,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.47",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.228,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.46",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.223,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.49",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.1,
+   "tcp_ok": true,
+   "tcp_s": 0.215,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.50",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.18,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.51",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.169,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.53",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.163,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.52",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.162,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.54",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.0,
+   "tcp_ok": true,
+   "tcp_s": 0.186,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.55",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.221,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.57",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.197,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.56",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.211,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.59",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.174,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.58",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.128,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.62",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.174,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.60",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.181,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.61",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.7,
+   "tcp_ok": true,
+   "tcp_s": 0.164,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.63",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.8,
+   "tcp_ok": true,
+   "tcp_s": 0.206,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.64",
+   "udp_loss": 0.0,
+   "rtt_ms": 12.9,
+   "tcp_ok": true,
+   "tcp_s": 0.209,
+   "healthy": true
+  },
+  {
+   "ue": "10.45.0.65",
+   "udp_loss": 0.0,
+   "rtt_ms": 13.0,
+   "tcp_ok": true,
+   "tcp_s": 0.199,
+   "healthy": true
+  }
+ ]
+}

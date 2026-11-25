@@ -1,0 +1,7 @@
+Policy,Profit,ΔMOS,P5 MOS,Dissat. %,Welfare,Harm (1e-3),Granted %,(a) rev–QoE,(b) rev–tail,(c) eff–ext,All 5 obj.
+"QoE-safe (mean) [≡ strict, η=0.01]",1.81 ± 0.08,0.281 ± 0.005,4.21 ± 0.02,0.34 ± 0.13,15.74 ± 0.46,3.8 ± 0.7,41,front,front,front,front
+QoE-safe + gating [≡ strict + gating],0.18 ± 0.00,0.266 ± 0.005,4.24 ± 0.00,0.01 ± 0.01,12.17 ± 0.34,0.7 ± 0.0,33,"dom. by QoE-safe, quantile, congestion",front,front,front
+Conformal quantile,1.17 ± 0.07,0.282 ± 0.004,4.18 ± 0.03,0.51 ± 0.16,15.39 ± 0.44,5.7 ± 1.0,43,front,dom. by QoE-safe*,dom. by QoE-safe*,front
+Congestion w/o externality,0.70 ± 0.03,0.280 ± 0.004,4.15 ± 0.03,0.70 ± 0.17,15.09 ± 0.42,7.6 ± 1.1,45,"dom. by QoE-safe*, quantile*","dom. by QoE-safe, quantile*","dom. by QoE-safe*, quantile*","dom. by QoE-safe*, quantile*"
+Flat commercial price,4.92 ± 0.10,0.236 ± 0.006,4.02 ± 0.00,0.00 ± 0.00,11.01 ± 0.36,0.7 ± 0.0,22,front,front,dom. by gating*,front
+Revenue max.,5.68 ± 0.18,0.192 ± 0.007,3.76 ± 0.00,0.00 ± 0.00,9.19 ± 0.38,0.7 ± 0.0,15,front,front,"dom. by gating*, flat*",front

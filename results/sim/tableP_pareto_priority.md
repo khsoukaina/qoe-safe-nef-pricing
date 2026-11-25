@@ -1,0 +1,12 @@
+Pareto status of the pricing policies — peak hours, priority admission
+
+| Policy | Profit | ΔMOS | P5 MOS | Dissat. % | Welfare | Harm (1e-3) | Granted % | (a) rev–QoE | (b) rev–tail | (c) eff–ext | All 5 obj. |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| QoE-safe (mean) [≡ strict, η=0.01] | 1.17 ± 0.07 | 0.296 ± 0.006 | 4.28 ± 0.00 | 0.00 ± 0.00 | 16.50 ± 0.61 | 1.5 ± 0.1 | 44 | front | front | dom. by congestion* | front |
+| QoE-safe + gating [≡ strict + gating] | 0.18 ± 0.00 | 0.266 ± 0.005 | 4.24 ± 0.00 | 0.00 ± 0.00 | 12.17 ± 0.34 | 0.7 ± 0.0 | 33 | dom. by QoE-safe, quantile, congestion | dom. by QoE-safe, quantile, congestion | front | front |
+| Conformal quantile | 1.17 ± 0.07 | 0.296 ± 0.006 | 4.28 ± 0.00 | 0.00 ± 0.00 | 16.50 ± 0.61 | 1.5 ± 0.1 | 44 | front | front | dom. by congestion* | front |
+| Congestion w/o externality | 0.70 ± 0.03 | 0.300 ± 0.006 | 4.28 ± 0.00 | 0.00 ± 0.00 | 16.64 ± 0.61 | 1.4 ± 0.1 | 46 | front | front | front | front |
+| Flat commercial price | 4.92 ± 0.10 | 0.236 ± 0.006 | 4.02 ± 0.00 | 0.00 ± 0.00 | 11.01 ± 0.36 | 0.7 ± 0.0 | 22 | front | front | dom. by gating* | front |
+| Revenue max. | 5.68 ± 0.18 | 0.192 ± 0.007 | 3.76 ± 0.00 | 0.00 ± 0.00 | 9.19 ± 0.38 | 0.7 ± 0.0 | 15 | front | front | dom. by gating*, flat* | front |
+
+Reference no NEF: ΔMOS 0, P5 3.00, dissatisfied 5.40 %, harm 0 (excluded from the fronts: it is the baseline). '*' = dominance not robust to the 95 % CI.
